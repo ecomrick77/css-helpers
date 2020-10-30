@@ -186,20 +186,62 @@
     margin-right:25px;
 }
 
-/* hr */
-hr.hr-one {
-    border: 0;
-    height: 1px;
-    background: #333;
-    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+/* widths */
+.w100{
+    width:100px;
 }
-hr.hr-two {
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+.w200{
+    width:200px;
 }
-hr.hr-three {
-    border: 0;
-    border-bottom: 1px dashed #ccc;
-    background: #999;
+.w300{
+    width:300px;
+}
+.w400{
+    width:400px;
+}
+.w500{
+    width:500px;
+}
+.w600{
+    width:600px;
+}
+
+/* max-widths */
+.max-w100{
+    max-width:100px;
+}
+.max-w200{
+    max-width:200px;
+}
+.max-w300{
+    max-width:300px;
+}
+.max-w400{
+    max-width:400px;
+}
+.max-w500{
+    max-width:500px;
+}
+.max-w600{
+    max-width:600px;
+}
+
+/* min-widths */
+.min-w100{
+    min-width:100px;
+}
+.min-w200{
+    min-width:200px;
+}
+.min-w300{
+    min-width:300px;
+}
+.min-w400{
+    min-width:400px;
+}
+.min-w500{
+    min-width:500px;
+}
+.min-w600{
+    min-width:600px;
 }
